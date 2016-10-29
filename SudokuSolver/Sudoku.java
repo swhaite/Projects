@@ -343,8 +343,6 @@ class Sudoku
     	}
     	
     }
-    /* The solve() method should remove all the unknown characters ('x') in the Grid
-     * and replace them with the numbers from 1-9 that satisfy the Sudoku puzzle. <--should be from 1-SIZE */
     public void solve()
     {
         
@@ -367,12 +365,6 @@ class Sudoku
     	}
     	replace(index); //change Grid to match the final solution.
     }
-
-
-    /*****************************************************************************/
-    /* NOTE: YOU SHOULD NOT HAVE TO MODIFY ANY OF THE FUNCTIONS BELOW THIS LINE. */
-    /*****************************************************************************/
- 
     /* Default constructor.  This will initialize all positions to the default 0
      * value.  Use the read() function to load the Sudoku puzzle from a file or
      * the standard input. */
